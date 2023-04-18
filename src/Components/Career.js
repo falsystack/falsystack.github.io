@@ -70,7 +70,7 @@ const Career = () => {
             {/*</div>*/}
             <div className={"row"}>
                 <div className={"row-left"}>
-                    <RowLeftHeader>AN....株式会社<Period>。</Period></RowLeftHeader>
+                    <RowLeftHeader>AN◇◇株式会社<Period>。</Period></RowLeftHeader>
                     <span className={"role"}>PG</span>
                     <span className={"time"}>
                        <time dateTime={"2022-07"}>2022.07</time>
@@ -128,7 +128,7 @@ const Career = () => {
             </div>
             <div className={"row"}>
                 <div className={"row-left"}>
-                    <RowLeftHeader>株式会社ト.....<Period>。</Period></RowLeftHeader>
+                    <RowLeftHeader>株式会社ト◇◇<Period>。</Period></RowLeftHeader>
                     <span className={"role"}>PG</span>
                     <span className={"time"}>
                        <time dateTime={"2022-04"}>2022.04</time>

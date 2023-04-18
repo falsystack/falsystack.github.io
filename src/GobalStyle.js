@@ -39,6 +39,11 @@ const GlobalStyle = createGlobalStyle`
     display: block;
     margin-bottom: 1.5rem;
   }
+  .price {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+  }
   div{
     display: block;
   }

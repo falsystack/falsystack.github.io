@@ -22,7 +22,7 @@
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build"
   },
-  "homepage": "https://falsystack.github.io",
+  "homepage": "https://falsystack.github.io/resume",
   "eslintConfig": {
     "extends": [
       "react-app",

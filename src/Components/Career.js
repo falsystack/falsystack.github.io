@@ -70,7 +70,7 @@ const Career = () => {
             {/*</div>*/}
             <div className={"row"}>
                 <div className={"row-left"}>
-                    <RowLeftHeader>AN◇◇株式会社<Period>。</Period></RowLeftHeader>
+                    <RowLeftHeader>ANEX株式会社<Period>。</Period></RowLeftHeader>
                     <span className={"role"}>PG</span>
                     <span className={"time"}>
                        <time dateTime={"2022-07"}>2022.07</time>
@@ -87,11 +87,12 @@ const Career = () => {
                         <h5>詳細</h5>
                         <p>HTMLでハードコーディングされていたのを新しい技術でリニューアルする案件</p>
                         <h5>私がやった事</h5>
-                        <p>fastifyというNodeJSのフレームワークを用いてBFFのAPI実装を担当しました。</p>
+                        <p>fastifyというNodeJSのフレームワークを用いてBFF(Backend For Frontend)のAPI実装を担当しました。実際のバックエンドよりは複雑度は低いですが本当に面白くていろんな事を学ぶプロジェクトでした。</p>
                         <li>ログインAPIの実装</li>
                         <li>ログアウトAPIの実装</li>
                         <li>マイページTOP画面APIの実装</li>
                         <li>注文入力画面APIの実装</li>
+                        <li>等々</li>
                     </Project>
                     <Project>
                         <h4>産業廃棄物DX案件</h4>
@@ -104,7 +105,7 @@ const Career = () => {
                         <p>補修案件</p>
                         <h5>私がやった事</h5>
                         <p>Storybook CSF2.0から3.0へのリファクタリングをしjestテストを入れました。</p>
-                        <p>Typescriptを使ってはいるがstrictではないのでstrictに変換後600超えるエラー箇所を修正しました。</p>
+                        <p>Typescriptを使ってはいるがstrictではなかったのでstrictに変換後600超えるエラー箇所を修正しました。</p>
                     </Project>
                     <Project>
                         <h4> 薬手帳サービスの施設向WEBアプリ開発</h4>
@@ -116,7 +117,7 @@ const Career = () => {
                         <h5>詳細</h5>
                         <p>薬手帳サービスのWebアプリケーション開発</p>
                         <h5>私がやった事</h5>
-                        <p>主にページの実装を担当しました。</p>
+                        <p>主にページの実装を担当しました。Reactを用いてページの作り方やコンポーネントの作り方、Presenter-Containerパータンなどを学ぶことができました、またStoryBookも初めて経験しました。</p>
                         <li>Felicaカード管理ページ作成</li>
                         <li>スタッフアカウント管理ページ作成</li>
                         <li>QRコード生成ページ作成</li>
@@ -128,7 +129,7 @@ const Career = () => {
             </div>
             <div className={"row"}>
                 <div className={"row-left"}>
-                    <RowLeftHeader>株式会社ト◇◇<Period>。</Period></RowLeftHeader>
+                    <RowLeftHeader>株式会社トマト<Period>。</Period></RowLeftHeader>
                     <span className={"role"}>PG</span>
                     <span className={"time"}>
                        <time dateTime={"2022-04"}>2022.04</time>

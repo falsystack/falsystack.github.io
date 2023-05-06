@@ -32,7 +32,7 @@ const Header = () => {
       <HeaderContainer>
           <Hello>こんにちは、<br/></Hello>
           <Greet>私はユンと申します<Period>。</Period></Greet>
-          <Intro>日本にきて8年目の韓国人です、現在はバックエンドのWebアプリケーション開発者として生きて行くために頑張っております。
+          <Intro>日本にきて8年目、開発者として１年目のジュニア開発者で韓国出身です、現在はバックエンドのWebアプリケーション開発者を目指して勉強しております。
           </Intro>
       </HeaderContainer>
   );

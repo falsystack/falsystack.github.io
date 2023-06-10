@@ -2,6 +2,7 @@ import Header from "./Components/Header";
 import styled from "styled-components";
 import Career from "./Components/Career";
 import Theothers from "./Components/Theothers";
+import React from "react";
 
 const App = () => {
     const Container = styled.div`

@@ -75,7 +75,7 @@ const Career = () => {
                     <span className={"time"}>
                        <time dateTime={"2022-07"}>2022.07</time>
                        ~
-                       現在
+                       2023.04
                </span>
                 </div>
                 <div className={"row-right"}>

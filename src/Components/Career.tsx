@@ -82,7 +82,8 @@ const Career = () => {
                     <Project>
                         <h4>大手サプリメントECサイトリニューアル案件</h4>
                         <span className={"time"}>
-                            <time dateTime={"2023-01"}>2023.01</time>~現在
+                            <time dateTime={"2023-01"}>2023.01</time>~
+                            <time dateTime={"2023-04"}>2023.04</time>
                         </span>
                         <h5>詳細</h5>
                         <p>HTMLでハードコーディングされていたのを新しい技術でリニューアルする案件</p>

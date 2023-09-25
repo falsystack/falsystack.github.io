@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/resume/static/js/main.40694667.js",
+    "main.js": "/resume/static/js/main.db516a02.js",
     "index.html": "/resume/index.html",
-    "main.40694667.js.map": "/resume/static/js/main.40694667.js.map"
+    "main.db516a02.js.map": "/resume/static/js/main.db516a02.js.map"
   },
   "entrypoints": [
-    "static/js/main.40694667.js"
+    "static/js/main.db516a02.js"
   ]
 }

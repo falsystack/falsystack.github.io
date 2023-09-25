@@ -70,6 +70,29 @@ const Career = () => {
             {/*</div>*/}
             <div className={"row"}>
                 <div className={"row-left"}>
+                    <RowLeftHeader>allofthem株式会社<Period>。</Period></RowLeftHeader>
+                    <span className={"role"}>バックエンドエンジニア</span>
+                    <span className={"time"}>
+                       <time dateTime={"2023-07"}>2023.07</time>
+                       ~
+                       現在
+               </span>
+                </div>
+                <div className={"row-right"}>
+                    <Project>
+                        <h4>projectName</h4>
+                        <span className={"time"}>
+                            <time dateTime={"2023-07"}>2023.07</time>~現在
+                        </span>
+                        <h5>詳細</h5>
+                        <p>iChainというパートナー会社のサービスを開発しております、Java, Springを用いてWASの開発が主な業務です。</p>
+                        <h5>私がやった事</h5>
+                        <p>Java Mail SenderからAWS SESに書き換え、サービス関連新規機能開発、補修、修正業務を担当しております。</p>
+                    </Project>
+                </div>
+            </div>
+            <div className={"row"}>
+                <div className={"row-left"}>
                     <RowLeftHeader>ANEX株式会社<Period>。</Period></RowLeftHeader>
                     <span className={"role"}>PG</span>
                     <span className={"time"}>

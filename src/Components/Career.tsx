@@ -80,7 +80,7 @@ const Career = () => {
                 </div>
                 <div className={"row-right"}>
                     <Project>
-                        <h4>projectName</h4>
+                        <h4>iChain Base</h4>
                         <span className={"time"}>
                             <time dateTime={"2023-07"}>2023.07</time>~現在
                         </span>

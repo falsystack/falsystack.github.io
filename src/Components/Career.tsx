@@ -93,8 +93,8 @@ const Career = () => {
             </div>
             <div className={"row"}>
                 <div className={"row-left"}>
-                    <RowLeftHeader>ANEX株式会社<Period>。</Period></RowLeftHeader>
-                    <span className={"role"}>PG</span>
+                    <RowLeftHeader>株式会社bitA<Period>。</Period></RowLeftHeader>
+                    <span className={"role"}>PG(フリーランス)</span>
                     <span className={"time"}>
                        <time dateTime={"2022-07"}>2022.07</time>
                        ~

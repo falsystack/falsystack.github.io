@@ -39,16 +39,17 @@ const Theothers = () => {
                 <OthersHeader>
                     ブログ<Period>。</Period>
                 </OthersHeader>
-                <span className={"role"}>dev_yoon（筆名）</span>
+                <span className={"role"}>dev_yoon（筆名）、falsystack（筆名）</span>
                 <span className={"time"}>
                        <time dateTime={"2018-04"}>2021.12</time>
                        ~
-                       現在(中断)
+                       現在
                </span>
                 <p>
                     <a href={"https://zenn.dev/dev_yoon"}>zenn</a>というITむけブログサイトに毎週勉強しながらメモった内容を整理しブログに投稿しております。
                     今は主にJPA(Hibernate)に関する投稿をしております。<br/>
                     最近月閲覧数1000を超えました。自分にとてはすごく嬉しい数値です😍
+                    <a href={"https://zenn.dev/falsystack"}>新しいブログ</a>を作りまして最近はこのIDで活動しています。現在は自作のブログを作っております。
                 </p>
             </OthersDiv>
             <OthersDiv>
@@ -62,7 +63,7 @@ const Theothers = () => {
                        現在
                </span>
                 <p>
-                    <a href={"https://github.com/yoongeonung"}>昔のアカウントのGithub</a>、<a href={"https://github.com/falsystack"}>現在アカウントのGithub</a>に1日1コミットを実現していきたいと思います、ただの一つのコードでも毎日自分の成長のため勉強した記録を残しております。
+                    <a href={"https://github.com/falsystack"}>Github</a>に1日1コミットを実現していきたいと思います、ただの一つのコードでも毎日自分の成長のため勉強した記録を残しております。
                     開発者は本当にユニークな職業だと思います、自分が歩いて来た証拠が全て残りみんなが知ることができますからね。
                 </p>
             </OthersDiv>

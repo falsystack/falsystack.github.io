@@ -3,43 +3,43 @@ import styled from "styled-components";
 
 const Career = () => {
     const CareerContainer = styled.section`
-      padding: 0 2rem;
+        padding: 0 2rem;
     `;
 
     const CareerHeader = styled.h2`
-      margin: 4rem 0 2rem;
-      font-size: 2.8rem;
+        margin: 4rem 0 2rem;
+        font-size: 2.8rem;
     `;
     const Period = styled.span`
-      color: blueviolet;
-      font-weight: bolder;
+        color: blueviolet;
+        font-weight: bolder;
     `;
     const RowLeftHeader = styled.h3`
-      font-size: 2rem;
-      margin: 0 0 1rem;
+        font-size: 2rem;
+        margin: 0 0 1rem;
     `
     const Project = styled.div`
-      &:first-child {
-        padding-top: 0;
-      }
+        &:first-child {
+            padding-top: 0;
+        }
 
-      box-sizing: border-box;
-      padding: 1.5rem 0;
+        box-sizing: border-box;
+        padding: 1.5rem 0;
 
-      & > h4 {
-        font-size: 1.5rem;
-        margin: 0 0 1rem;
-      }
+        & > h4 {
+            font-size: 1.5rem;
+            margin: 0 0 1rem;
+        }
 
-      & > .time {
-        display: block;
-        margin-bottom: 1.5rem;
-      }
+        & > .time {
+            display: block;
+            margin-bottom: 1.5rem;
+        }
 
-      & > h5 {
-        font-size: 1.3rem;
-        margin: 0 0 0.5rem;
-      }
+        & > h5 {
+            font-size: 1.3rem;
+            margin: 0 0 0.5rem;
+        }
     `;
 
     return (
@@ -70,24 +70,84 @@ const Career = () => {
             {/*</div>*/}
             <div className={"row"}>
                 <div className={"row-left"}>
-                    <RowLeftHeader>allofthem株式会社<Period>。</Period></RowLeftHeader>
+                    <RowLeftHeader>Tagbangers<Period>。</Period></RowLeftHeader>
                     <span className={"role"}>バックエンドエンジニア</span>
                     <span className={"time"}>
-                       <time dateTime={"2023-07"}>2023.07</time>
+                       <time dateTime={"2024-01"}>2024.01</time>
                        ~
                        現在
                </span>
                 </div>
                 <div className={"row-right"}>
                     <Project>
-                        <h4>iChain Base</h4>
+                        <h4>デザイン関連サービス</h4>
                         <span className={"time"}>
-                            <time dateTime={"2023-07"}>2023.07</time>~現在
+                            <time dateTime={"2024-02"}>2024.02</time>
+                            ~
+                            <time dateTime={"2024-03"}>2024.03</time>
                         </span>
                         <h5>詳細</h5>
-                        <p>iChainというパートナー会社のサービスを開発しております、Java, Springを用いてWASの開発が主な業務です。</p>
+                        <p>デザイン関連サービスで使われるエントリーの応募、取り下げ時のメール送信機能及びPDF作成機能</p>
                         <h5>私がやった事</h5>
-                        <p>Java Mail SenderからAWS SESに書き換え、サービス関連新規機能開発、補修、修正業務を担当しております。</p>
+                        <p>マイクロサービスで構成されているデザイン関連サービスに参画、Kubernetesの初体験することができました。</p>
+                        <li>
+                            Java, Spring, Kafka, AWS SESを用いてメール送信機能をEvent
+                            Driven方式で非同期的に送るロジックの実装
+                        </li>
+                        <li>
+                            Jasperを利用したPDF作成機能の実装
+                        </li>
+                    </Project>
+                    <Project>
+                        <h4>動画配信サービス</h4>
+                        <span className={"time"}>
+                            <time dateTime={"2024-01"}>2024.01</time>
+                            ~
+                            <time dateTime={"2024-01"}>2024.01</time>
+                        </span>
+                        <h5>詳細</h5>
+                        <p>動画配信サービスで使われる設問のCSVデータをインポートする作業</p>
+                        <h5>私がやった事</h5>
+                        <p>転職後初めて担当したタスクです、初めてDDDとマイクルサービスを経験することができました。フロントエンジニア１名と一緒に進めました。</p>
+                        <li>
+                            EventStormingの初体験
+                        </li>
+                        <li>
+                            Java, Spring, Jpaを用いてBatch処理の実装
+                        </li>
+                        <li>
+                            ElasticSearchのRead-Modelの作成
+                        </li>
+                        <li>
+                            プロジェクト全体の例外処理の実装
+                        </li>
+                    </Project>
+                </div>
+            </div>
+            <div className={"row"}>
+                <div className={"row-left"}>
+                    <RowLeftHeader>allofthem株式会社<Period>。</Period></RowLeftHeader>
+                    <span className={"role"}>バックエンドエンジニア</span>
+                    <span className={"time"}>
+                       <time dateTime={"2023-07"}>2023.07</time>
+                       ~
+                       <time dateTime={"2023-12"}>2023.12</time>
+               </span>
+                </div>
+                <div className={"row-right"}>
+                    <Project>
+                        <h4>iChain Base</h4>
+                        <span className={"time"}>
+                            <time dateTime={"2023-07"}>2023.07</time>
+                            ~
+                            <time dateTime={"2023-12"}>2023.12</time>
+                        </span>
+                        <h5>詳細</h5>
+                        <p>iChainというパートナー会社のサービスを開発しております、Java,
+                            Springを用いてWASの開発が主な業務です。</p>
+                        <h5>私がやった事</h5>
+                        <p>Java Mail SenderからAWS
+                            SESに書き換え、サービス関連新規機能開発、補修、修正業務を担当しております。</p>
                     </Project>
                 </div>
             </div>
@@ -111,7 +171,8 @@ const Career = () => {
                         <h5>詳細</h5>
                         <p>HTMLでハードコーディングされていたのを新しい技術でリニューアルする案件</p>
                         <h5>私がやった事</h5>
-                        <p>fastifyというNodeJSのフレームワークを用いてBFF(Backend For Frontend)のAPI実装を担当しました。実際のバックエンドよりは複雑度は低いですが本当に面白くていろんな事を学ぶプロジェクトでした。</p>
+                        <p>fastifyというNodeJSのフレームワークを用いてBFF(Backend For
+                            Frontend)のAPI実装を担当しました。実際のバックエンドよりは複雑度は低いですが本当に面白くていろんな事を学ぶプロジェクトでした。</p>
                         <li>ログインAPIの実装</li>
                         <li>ログアウトAPIの実装</li>
                         <li>マイページTOP画面APIの実装</li>

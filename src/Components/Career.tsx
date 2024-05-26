@@ -80,11 +80,29 @@ const Career = () => {
                 </div>
                 <div className={"row-right"}>
                     <Project>
-                        <h4>デザイン関連サービス</h4>
+                        <h4>税金関連アプリケーション</h4>
+                        <span className={"time"}>
+                            <time dateTime={"2024-02"}>2024.04</time>
+                            ~
+                            現在
+                        </span>
+                        <h5>詳細</h5>
+                        <p>税金関連サービスの改修プロジェクトに参画、実装方法の提案や税金サービスの改修を担当しております。</p>
+                        <h5>私がやった事</h5>
+                        <p>マイクロサービスで構成されている税金関連サービスに参画、税金関連エンティティやテーブルの修正それに伴う業務ロジックの修正などう担当しました。。</p>
+                        <li>
+                            Java, Spring, Hibernate, Dockerを用いて税金関連エンティティやテーブルの修正それに伴う業務ロジックの修正などう担当しました
+                        </li>
+                        <li>
+                            C4モデルの作成
+                        </li>
+                    </Project>
+                    <Project>
+                        <h4>デザイン受賞サービス</h4>
                         <span className={"time"}>
                             <time dateTime={"2024-02"}>2024.02</time>
                             ~
-                            <time dateTime={"2024-03"}>2024.03</time>
+                            現在
                         </span>
                         <h5>詳細</h5>
                         <p>デザイン関連サービスで使われるエントリーの応募、取り下げ時のメール送信機能及びPDF作成機能</p>
@@ -96,6 +114,12 @@ const Career = () => {
                         </li>
                         <li>
                             Jasperを利用したPDF作成機能の実装
+                        </li>
+                        <li>
+                            AWS LambdaとSESを用いてメール転送機能作成
+                        </li>
+                        <li>
+                            Admin ページの修正
                         </li>
                     </Project>
                     <Project>
